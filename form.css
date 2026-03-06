@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     background-image: url("i7.jpg");
+    background-size: cover;
+}
+
+.heading{
+    background-color: #92150c;
+    color: white; 
+    text-align: center; 
+    padding: 7px;
+    width: 100%;
+    height: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-form{
+    height: 60%;
+    width: 80%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+.name{ 
+    margin-top: 4rem; 
+    background-color: #1E1E24; 
+    color: white; 
+    width: 60%; 
+    padding: 20px 0px 5px 22px; 
+    border-radius: 2.2rem;
+    font-size: 18px;
+    border: 2px solid #F5F5F5;
+}
+
+.name box{
+    margin-left: 2rem;
+}
+
+.submit{
+    height: 2.8rem;
+    width: 6.8rem;
+    border-radius: 10px;
+    background-color: rgb(220, 15, 15);
+    color: white;
+}
+
+.reset{
+    height: 2.8rem;
+    width: 6.8rem;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(220, 15, 15);
+    margin-left: 2rem;
+}
+
+
+.next-page{
+    text-align: end;
+    height: 4rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name input:focus{
+    outline: none;
+    border: 2px solid rgb(236, 28, 28);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+
+.np{
+    background-color: red;
+    height: 2.8rem;
+    width: 6.8rem;
+    border-radius: 10px;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+.np a{
+    text-decoration: none;
+    color: white;
+}

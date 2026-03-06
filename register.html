@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="heading">
+         <h1> Event Registration Form </h1>
+    </div>
+    <content>
+    <div class="outer-form">
+     <div class="name">
+        <form id="registrationForm">
+            <label for="details"><b>Student Name: </b></label><br>
+            <input type=text id="details" required name="student_details" style="width: 9.2rem; height: 1.2rem">
+            <br>
+            <br>
+            <label for="email"><b>Email: </b></label> <br>
+            <input type="email" id="email" name="email" style="width: 9.2rem; height: 1.2rem" required>
+            <br>
+            <br>
+            <label for="roll"><b>Roll No: </b></label><br>
+            <input type="text" id="roll" name="roll_no" style="width: 9.2rem; height: 1.2rem" required><br><br><br>
+            
+            <label for="event"><b>Event Selection</b></label><br><br>
+            <select id="event" name="email" required>
+                <option>----Select Event-----</option>
+                <option>bloombox final bid</option>
+                <option>codecell ctf</option>
+                <option>Datazen datathon</option>
+            </select>
+            <br> <br> <br>
+            
+            <label for="gender"><b>Gender:- </b></label><br><br>
+            <label for="men"><b>Male</b></label>
+            <input type="radio" id="men" id="gender" name="gender" style="margin-right: 20px">
+            <label for="female"><b>Female</b></label>
+            <input type="radio" id="female" id="gender" name="gender" style="margin-right: 20px"><br><br><br>
+
+            <label for="skills"><b>Skills:- </b></label><br><br>
+            <label for="web-dev" class="box"><b>Web Development</b></label>
+            <input type="checkbox" id="web-dev" name="skills" style="margin-right: 10px" >
+            <label for="aiml" class="box"><b>AI ML</b></label>
+            <input type="checkbox" id="aoml" name="skills" style="margin-right: 10px">
+            <label for="app-dev" class="box"><b>App Development</b></label>
+            <input type="checkbox" id="app-dev" name="skills" style="margin-right: 10px">
+            <label for="cs" class="box"><b>Cyber Security</b></label>
+            <input type="checkbox" id="cs" name="skills" style="margin-right: 10px"><br><br><br>
+            <button class="submit">Submit</button>
+            <button class="reset">Reset</button>
+        </form>
+        </div>
+    </div>
+    </content>
+    <div class="next-page">
+    <button class="np">
+      <a href="media.html"><b>Next Page</b></a>
+   </button>
+</div> 
+<script src="register.js"></script>
+</body>
+</html>
